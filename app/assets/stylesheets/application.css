@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+ body {
+     background-color: tomato;
+     margin: 0px;
+     font-family: 'Josefin Slab', serif;
+     font-size: 40px;
+ }
+
+ header {
+     background: rgba(247,247,247,0.3);
+     padding: 5px 20px ;
+     margin-bottom: 30px;
+     height: 65px;
+     opacity: 0.9;
+ }
+
+ footer {
+     padding-top: 100px;
+     font-size:16px;
+     text-align: center;
+ }
+
+ .logo {
+     position: absolute;
+     top: 10px;
+     color: #000;
+     font-family: 'Fredericka the Great', cursive;
+     font-size: 45px;
+ }
+
+ .logo-team {
+     font-family: 'Ewert', cursive;
+ }
+
+ .main-container {
+     padding: 20px 20px;
+ }

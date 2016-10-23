@@ -6,9 +6,21 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "application", 'https://fonts.googleapis.com/css?family=Baloo+Bhaina|Ewert|Fredericka+the+Great|Josefin+Slab', :media => "all" %>
   </head>
 
   <body>
+    <header>
+      <span class="logo">pomodoro<span class="logo-team">Team</span></span>
+    </header>
+
+  <div class="main-container">
+
     <%= yield %>
+
+  </div>
+
+  <footer>2016 mashed potato.</footer>
+
   </body>
 </html>
